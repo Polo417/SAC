@@ -1,0 +1,6 @@
+#!/bin/bash
+
+TP_DIR='/home/qgoux/WEB/framework-3tcweb-POKEMON-skeleton'
+
+/usr/sbin/apache2 -D DEFAULT_VHOST -D INFO -D LANGUAGE -D PHP5 -d /usr/lib/apache2 -f $TP_DIR/etc/apache2/httpd.conf -k start
+

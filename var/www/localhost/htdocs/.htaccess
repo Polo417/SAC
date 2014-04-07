@@ -1,0 +1,16 @@
+
+# AuthName "/home/qgoux/WEB/framework-3tcweb-POKEMON-skeleton/var/www/localhost/htdocs/index.php"
+# "home/qgoux/WEB/framework-3tcweb-POKEMON-skeleton/var/www/localhost/htdocs/index.php"
+# AuthType Basic
+# AuthUserFile "/home/qgoux/WEB/framework-3tcweb-POKEMON-skeleton/var/www/localhost/htdocs/.htpasswd"
+# Require valid-user
+
+# RewriteBase /
+# RewriteRule ^(.*)$ /index.php
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteCond {REQUEST_FILENAME} !-f 
+#RewriteCond %{REQUEST_URI} !^/connect/static(.*)$
+#RewriteBase /
+RewriteRule ^(.*)$ accueil.html [QSA,L]

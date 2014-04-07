@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<TITLE>Document technique de SAC</TITLE>
+	<?php
+		require_once "static/css/style.css";
+	?>
+</head>
+
+<body>
+	<div id="container">
+		<div id="title_wrapper">
+			<div id="title"><h1>Document technique de SAC</h1></div>
+		</div>
+		<div id="main">
+			<div id="right">
+				<h2>Base de donn&eacute;es :</h2>
+				<img src="http://s22.postimg.org/8xtei0tep/bdd.jpg" alt="schemaBDD" style="width:60%; height:60%;">
+				<br><br>
+				<h2>Maquette des &eacute;crans</h2>
+				<p>On arrive sur le site par l'interm&eacute;diaire  de la page d'accueil. On a alors la possibilit&eacute; de se logger en &eacute;tant redirig&eacute; vers une autre page.  L&agrave;, on se connecte en tant qu'administrateur ou membre (utilisateur classique). </p>
+				<br>
+				<h3>Administrateur :</h3>
+				<img src="http://s4.postimg.org/khyf8jc7x/Capture_du_2013_06_07_14_19_29.png" alt="admin" style="width:60%; height:60%;border:2px solid;">
+				<p>Cette page donne acc&egrave;s aux fonctionnalit&eacute;es r&eacute;serv&eacute;es &agrave; l'administrateur, c'&eacute;st-&agrave;-dire ajouter/supprimer des membres; ajouter un produit dans la base de donn&eacute;es; annuler la derni&egrave;re entr&eacute;e; r&eacute;approvisionner le stock. Chacune de ces fonctionnalit&eacute;es dirige vers une page diff&eacute;rente. Ci-dessous figurent les formeulaires et listes qui s'affichent &agrave; l'&eacute;cran lors du choix d'une fonctionnalit&eacute;e, avec toujours le menu au-dessus.</p>
+				<img src="http://img4.hostingpics.net/pics/213172Image1.png" alt="admin" style="width:60%; height:60%;border:2px solid;">
+				<br><br>
+				<h3>Membres :</h3>
+				<img src="http://s16.postimg.org/fnrlvuah1/Capture_du_2013_06_07_14_30_15.png"  alt="user" style="width:60%; height:60%;border:2px solid;">
+				<p>Ceci est la page d'accueil des utilisateurs classiques. Comme pour l'administrateur, on est redirig&eacute; vers une autre page lorsqu'on clique sur un bouton du menu ou sur un lien.</p> 
+				<img src="http://img4.hostingpics.net/pics/462380Image2.png" alt="user" style="width:60%; height:60%;border:2px solid;">
+				<p>Sur la page "nouvelle consommation", le choix du produit redirige vers une autre page demandant la quantit&eacute; &agrave; retirer et elle-m&ecirc;me dirige ensuite vers une page de confirmation de l'enregistrement.</p>
+				<br><br>
+				<h2>Am&eacute;liorations : </h2>
+				<p>Au fur et &agrave; mesure de la r&eacute;alisation du site, nous nous sommes aper&ccedil;us que nous pourrions modifier les points suivants:</p>
+				<ul>
+					<li>donner la possibilit&eacute; de modifier la quantit&eacute; maximale du stock; </li>
+					<li>donner la possibilit&eacute; de r&eacute;approvisionner les produits au cas par cas;</li>
+					<li>ajouter une nouvelle table dans laquelle on garderait en m&eacute;moire la consommations des utilisateurs n'ayant pas encore regl&eacute; leurs factures;</li>
+					<li>donner la possibilit&eacute; aux utilisateurs de t&eacute;l&eacute;charger leurs factures au format pdf;</li>
+					<li>au niveau du htaccess, pemettre l'utilisation d'une feuille de style externe et des images contenues dans les archives sources;</li>
+					<li>utiliser plus de scripts pour ajouter de la dynamique au site.</li>
+				</ul>
+				<br><br>
+				<h2>Annexe volum&eacute;trie  : </h2>
+				<dl>
+					<dt>S&eacute;ance 1 :</dt>
+					<dd>->Formation du groupe</dd>
+					<dd>->Choix du sujet</dd>
+					<dt>S&eacute;ance 2 :</dt>
+					<dd>->Prise en main de MySQL</dd>
+					<dd>->Choix du Framework</dd>
+					<dt>S&eacute;ance 3 :</dt>
+					<dd>->Impl&eacute;mentation des requ&ecirc;tes SQL sous PHP</dd>
+					<dt>S&eacute;ance 4 :</dt>
+					<dd>->Gestion des connexions sous PHP</dd>
+					<dd>->Structuration des pages</dd>
+					<dt>S&eacute;ance 5 :</dt>
+					<dd>->Implantation d'une feuille de style CSS</dd>
+				</dl>
+			</div>
+		</div>
+		<div id="footer"> 
+			<p>2013 &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.insa-lyon.fr/">INSA Lyon</a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;Designed by DUCHEMIN Diane, GOUX Quentin, LE Vu-Hieu, PIRLEA Maria Roxana</p>
+		</div>
+		
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+#RewriteEngine On
+#RewriteCond {REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ index.php?request_path=$1 [QSA,L]
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteBase /connect
+ # RewriteCond {QUERY_STRING} !^(static/css/.*)$
+  RewriteCond %{REQUEST_URI} !^/static(.*)$
+  RewriteCond {REQUEST_FILENAME} !-f 
+
+  RewriteRule ^(.*)$ index.php?request_path=$1 [L,NC,QSA] 
+</IfModule>

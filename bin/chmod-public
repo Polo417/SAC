@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Petit rappel de l'utilisation de la commande find
+find . -type d -exec chmod go+rx {} \;
+find . -type f -exec chmod go+r {} \;
+

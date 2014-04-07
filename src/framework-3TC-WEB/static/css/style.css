@@ -1,0 +1,178 @@
+<style>		
+		body {
+			margin: 0px;
+			padding: 0px;
+			color: #c8c8c8;
+			font-family: Georgia, serif;
+			font-size: 12px;
+			line-height: 1.5em; 
+			background-color: #4A4949;
+			text-align:justify;
+		}
+
+		p,h4{ 
+			margin: 0 0 15px 0; 
+			padding-left: 20px; 
+			padding-right: 20px;
+		}
+		
+		h3 {
+			font-size: 25px;
+			margin: 0 0 15px 0; 
+			padding-left: 20px; 
+			padding-right: 20px;
+		}
+
+		h2 {  
+			font-size:30px;
+			margin: 0 0 15px 0; 
+			padding-left: 30px; 
+			padding-right: 20px;
+			padding-bottom: 20px; 
+			padding-top: 25px; 
+		}
+
+		a:link, a:visited {
+			color:#fcc32c;
+			text-decoration:none;
+		}
+
+		a:hover, a:active {
+			color:#c8c8c8;
+			text-decoration:none;
+		}
+		
+		table {
+			padding: 10px;
+			font-size:18px;
+		}
+
+		#container {
+			position: relative;
+			width: 100%;
+		}
+
+		#title_wrapper {
+			width: 100%;
+			margin-top: 25px; 
+			height: 75px;
+			background-color:#fcc32c;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#title h1{ 
+			float: left; 
+			margin-top: 25px; 
+			width: 100%; 
+			height: 75px; 
+			text-align:center;
+			color:#323232;
+			font-variant:small-caps;
+			font-family:Georgia,serif;
+		}
+
+		#main {
+			width: 90%;
+			height: 470px;
+			margin: 0 auto;
+			padding: 40px 10px;
+		}
+
+		#title_main {
+			color:#fcc32c;
+			width: 750px;
+			height: 80px;
+		}
+
+		#right {
+			width: 100%;
+			float: left;
+			padding-right:20px;
+		}
+
+		#separator {
+			width:5px;
+			height:370px;
+			float: left;
+		}
+
+		#footer {
+			width:800px;
+			text-align:center;
+			height:20px;
+			color:#fcc32c;
+			margin: 0 auto;
+			clear:both;
+			padding: 15px 10px;
+		}
+
+		#image_wrapper { 
+			display: inline-block; 
+			border: 1px solid #2f2824; 
+			padding: 9px; 
+			margin-bottom: 10px;
+			margin-left: 20px; 
+			background: #000000;
+			
+		}
+
+		#submit {
+			height:30px;
+			padding: 5px 1px; 
+			color:#fcc32c;  
+			background: #787878;
+			border: 1px solid #2f2824; 
+			font-size:14px; 
+			font-family:Georgia,serif;
+			margin: 0px 0px;
+			display: block;
+		}
+
+		#login {
+			padding-left:20px;
+			padding-top:20px;
+		}
+
+		#login form label {
+			display: block; 
+			width: 100px; 
+			margin-right: 12px; 
+			font-size: 13px; 
+			padding-top:10px;
+		}
+
+		#login form textarea {
+			width: 400px;  
+			height: 80px; 
+			color: #999; 
+			padding: 5px; 
+			background: #111;
+			border: 1px solid #2f2824; 
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 12px;
+			margin-top: 5px;
+			margin-left:20px;
+		}
+		
+		#etat_produit {
+			color:#fcc32c;  
+			background: #787878;
+		}
+		
+		#select {
+			color:#fcc32c;  
+			background: #787878;
+			float:left;
+		}
+
+		#tab {float:right; padding-top:0px;}
+		
+		#clear {clear:both;}
+		
+		#no_pad {font-size:18px; padding:10px 0px;}
+		
+		#a_menu {clear:both;}
+		
+		#home {font-size:20px;}
+</style>
